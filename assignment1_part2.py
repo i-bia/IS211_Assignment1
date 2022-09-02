@@ -13,8 +13,8 @@ class Book:
         print(f"Book title: {self.author} Written by {self.title}")
 
 if __name__ == "__main__":
-    p1 = Book("Of Mice and Men", "John Stein")
-    p2 = Book("To Kill A Mocking Bird", "Harper Lee")
+    p1 = Book("Harry Potter and the Goblet of Fire", "J. K. Rowling")
+    p2 = Book("Ivanhoe: A Romance", "Walter Scott")
 
     p1.display()
     p2.display()
